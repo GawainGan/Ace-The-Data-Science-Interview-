@@ -48,8 +48,9 @@ print(f"The overall probability that a randomly selected customer will make a pu
 = P_A_given_B1 * P_B1 + P_A_given_B2 * P_B2 + P_A_given_B3 * P_B3\n
 = {P_A:.2f}")
 ```
+```output
 The overall probability that a randomly selected customer will make a purchase is:
 = 0.5 * 0.9 + 0.3 * 0.6 + 0.2 * 0.3
 = 0.69 
-
+```
 This code calculates the overall probability that a customer will make a purchase based on the given probabilities for each customer segment.
